@@ -8,7 +8,7 @@ Here is the task to be completed:
 
 Based on the image and the task, you will perform the following steps:
 1.  **Relevant Image Analysis:** Describe only the key elements in the image that are directly related to completing the task. Ignore any irrelevant details.
-2.  **Action Planning:** Generate a sequential and specific list of actions to complete the task.
+2.  **Action Planning:** Generate a sequential and specific list of actions to complete the task. This list should not be modified along the task.
 3.  **Next Step:** Identify and extract the very next action that needs to be performed immediately.
 4.  **Completion Check:** If the current state of the environment successfully satisfies the task, you must set the "task_completed" flag to `true`.
 
