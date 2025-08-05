@@ -1,0 +1,52 @@
+# Core dependencies for VLA examples
+# Computer Vision and Image Processing
+opencv-python==4.10.0.84
+Pillow==10.4.0
+
+# Machine Learning and AI Models
+torch>=2.2.2
+torchvision>=0.17.2
+torchaudio>=2.2.2
+transformers>=4.44.0
+tokenizers>=0.19.1
+timm>=1.0.7
+accelerate>=0.33.0
+
+# Google Gemini AI
+google-generativeai>=0.7.2
+
+# Environment and Configuration
+python-dotenv>=1.0.1
+
+# Scientific Computing
+numpy>=1.26.4
+matplotlib>=3.9.0
+
+# Specialized ML Libraries
+# OpenVLA dependencies
+# flash-attn==2.5.5  # Optional but recommended for OpenVLA
+
+# Octo model dependencies
+jax[cuda12_pip]>=0.4.20  # For CUDA 12 support
+# For CPU only, use: jax[cpu]>=0.4.20
+
+# QwenVL utilities
+# qwen-vl-utils>=0.0.8
+
+# Ollama for Llama models
+# ollama>=0.3.0
+
+# Additional utilities
+requests>=2.32.0
+typing-extensions>=4.12.0
+
+# Development and testing (optional)
+# pytest>=8.3.0
+# black>=24.8.0
+# flake8>=7.1.0
+# mypy>=1.11.0
+
+# Note: Some models require specific installation commands:
+# For CUDA 12.1 PyTorch: conda install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 pytorch-cuda=12.1 -c pytorch -c nvidia
+# For OpenVLA: pip install -r https://raw.githubusercontent.com/openvla/openvla/main/requirements-min.txt
+# For flash-attention: pip install "flash-attn==2.5.5" --no-build-isolation
